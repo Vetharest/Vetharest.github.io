@@ -513,7 +513,7 @@ var WeatherInfoBox = function (_React$Component6) {
 
             var locationSettings = {
                 "method": 'GET',
-                url: 'http://www.geoplugin.net/json.gp'
+                url: 'https://www.geoplugin.net/json.gp'
             };
 
             $.ajax(locationSettings).done(function (location) {
