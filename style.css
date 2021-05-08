@@ -1,0 +1,114 @@
+body {
+    background-color: skyblue;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.mole {
+    height:170px;
+    width:128px;
+    position:relative;
+    display: inline-block;
+    margin: auto auto 70px auto;
+    width: 20%;
+    max-width: 160px;
+}
+
+.molehill {
+    height:84px;
+    width:128px;
+    background-color: brown;
+    border-radius:50%;
+    margin-top: -42px;
+    position:absolute;
+    bottom:0px;
+    z-index: -1;
+}
+
+.lowmole {
+    bottom: -50px;
+}
+
+
+.moleChain {
+    margin-top: 4rem;
+    z-index: 10;
+}
+
+h1 {
+    text-align: center;
+    max-width: 800px;
+}
+
+.blank {
+    opacity: 0;
+}
+
+#topBar {
+    max-width: 800px;
+}
+
+.inputBar {
+    display: inline-block;
+    width: 60%;
+}
+
+#scoreBar {
+    float: right;
+}
+
+.chatWindow {
+    border-style: double;
+    border-color: red;
+    background-color: white;
+    width: 570px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.chatForm {
+    position: relative;
+    width: 570px;
+}
+
+.chatInput {
+    width: 100%;
+}
+
+.sendButton {
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    /* float: right; */
+}
+
+.weatherInfoBox {
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    color: #DDDDDD;
+}
+
+.weatherTop {
+    border-bottom-style: solid;
+    border-color: black;
+    padding: 0 1rem;
+}
+
+.sunContainer {
+    width: 100%;
+}
+
+h5 {
+    margin-top: 0;
+    color: #BBBBBB
+}
+
+.column {
+    display: inline-block;
+}
