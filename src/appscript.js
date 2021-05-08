@@ -342,7 +342,7 @@ class WeatherInfoBox extends React.Component {
     getWeather() {
         const locationSettings = {
             "method" : 'GET',
-            url: 'https://www.geoplugin.net/json.gp',
+            url: 'https://ssl.geoplugin.net/json.gp?k=05584f1ed5988514',
         }
         
         $.ajax(locationSettings).done((location) => {
